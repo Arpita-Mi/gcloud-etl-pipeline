@@ -1,0 +1,6 @@
+GOOGLE_APPLICATION_CREDENTIALS=path_to_gcp_credentials
+PROJECT_ID=project-id
+BUCKET_NAME=bucket-name
+DESTINATION_BLOB_NAME=destination-blob
+FIRESTORE_COLLECTION=firestore-collection
+FILE_PATH=file_path
