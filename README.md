@@ -17,7 +17,7 @@ gcloud_etl_pipeline/
 │      │── data.csv        # The generated CSV file (output)
 │      │── create_csv.py   # Script to generate seeded data
 │── dataflow/
-│      │── dataflow_pipeline.py  # Apache Beam batch pipeline script
+│      │── dataflow_pipeline.py  # Apache Beam batch pipeline script and writes data to firestore db
 │── storage/
 │      │── upload_to_gcs.py  # Script to upload CSV to Google Cloud Storage (GCS)
 │── config.py
