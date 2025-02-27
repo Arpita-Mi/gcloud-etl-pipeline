@@ -12,7 +12,7 @@ This project follows a structured ETL process:
    * Upload the CSV file to Google Cloud Storage (GCS).
    
 ```
-gcloud_service_task/
+gcloud_etl_pipeline/
 │── csv_handling/
 │      │── data.csv        # The generated CSV file (output)
 │      │── create_csv.py   # Script to generate seeded data
